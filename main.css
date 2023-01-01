@@ -1,0 +1,1378 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+}
+
+
+/*header start*/
+
+.header {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-photo {
+    background-image: url(Photos/header%20photo-3.png);
+    height: 850px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.header-photo .speed {
+    width: 33%;
+    position: absolute;
+    left: 250px;
+    top: 360px;
+}
+
+.speed .control-input {
+    margin-top: 40px;
+}
+
+.speed .lol h5 {
+    margin-top: 15px;
+}
+
+.im img {
+    width: 100%;
+}
+
+.lol p {
+    background: #E2EAED;
+    width: 347px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #242F51;
+    padding-left: 5px;
+}
+
+.additional {
+    color: #2500F9;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.additional:hover {
+    text-decoration: none;
+    color: #2500F9;
+}
+
+.lol h1 {
+    color: #242F51;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.lol h5 {
+    font-size: 17px;
+    color: #242F51;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+
+/* Header dropDown icon */
+
+.fa-bars {
+    display: none;
+}
+
+
+/* Header dropDown icon */
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin-top: -26px;
+}
+
+.header a {
+    opacity: 1;
+    font-size: 18px;
+    color: #242F51;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header li a:hover {
+    text-decoration: none;
+    color: #2500F9;
+}
+
+.control-input .buttonHeader {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background: #2500F9;
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-top: -13.2px;
+    font-size: 18px;
+}
+
+.control-input .buttonHeader:hover {
+    background: #280ebf;
+    border-color: #280ebf;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .300s ease;
+}
+
+.control-input .tryButton {
+    text-decoration: none;
+    background: #2500F9;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-top: -13.2px;
+    font-size: 18px;
+}
+
+.control-input .tryButton:hover {
+    background: #280ebf;
+    border-color: #280ebf;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .300s ease;
+}
+
+.control-input #btn-2 {
+    font-size: 18px;
+}
+
+
+/* Media queries Start */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 20px;
+    }
+    .header-photo {
+        background-size: 0%;
+        height: 440px;
+    }
+    .header-photo .speed {
+        width: 100%;
+        position: absolute;
+        left: 2px;
+        top: 100px;
+    }
+    .speed .control-input {
+        margin-top: 40px;
+    }
+    .speed .lol h5 {
+        margin-top: 15px;
+    }
+    .im img {
+        width: 100%;
+    }
+    .lol p {
+        width: 310px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .additional {
+        font-size: 17px;
+    }
+    .lol {
+        width: 100%;
+    }
+    .lol h1 {
+        font-size: 32px;
+    }
+    .lol h5 {
+        font-size: 16px;
+    }
+    .header ul {
+        display: flex;
+        margin-top: -26px;
+        display: none;
+    }
+    /* Header dropDown icon */
+    .fa-bars {
+        display: block;
+        font-size: 28px;
+        position: absolute;
+        right: 10px;
+    }
+    /* Header dropDown icon */
+    .header a {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .control-input {
+        margin: 0px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .control-input .buttonHeader {
+        display: none;
+    }
+    .control-input .tryButton {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-top: -13.2px;
+        font-size: 18px;
+    }
+    .control-input #btn-2 {
+        font-size: 18px;
+    }
+    /* 320px and 480px */
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 21px;
+    }
+    .header-photo {
+        background-image: url(Photos/header%20photo-3.png);
+        background-size: 0%;
+    }
+    .header-photo .speed {
+        width: 95%;
+        position: absolute;
+        left: 30px;
+        top: 100px;
+    }
+    .speed .lol h5 {
+        margin-top: 15px;
+    }
+    .im img {
+        width: 100%;
+    }
+    .lol p {
+        width: 310px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .additional {
+        font-size: 17px;
+    }
+    .lol {
+        width: 100%;
+    }
+    .lol h1 {
+        font-size: 35px;
+    }
+    .lol h5 {
+        font-size: 18px;
+    }
+    .header ul {
+        display: flex;
+        margin-top: -26px;
+        display: none;
+    }
+    /* Header dropDown icon */
+    .fa-bars {
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        right: 10px;
+    }
+    /* Header dropDown icon */
+    .header a {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .speed .control-input {
+        margin-top: 40px;
+    }
+    .control-input {
+        margin: 0px 4px 4px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .control-input .buttonHeader {
+        display: none;
+    }
+    .control-input .tryButton {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-top: -13.2px;
+        font-size: 18px;
+    }
+    .control-input #btn-2 {
+        font-size: 18px;
+    }
+    /* 481px and 768px */
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 0px;
+        margin-top: 21px;
+    }
+    .header-photo {
+        background-image: url(Photos/header%20photo-3.png);
+        background-size: 100%;
+    }
+    .header-photo .speed {
+        width: 45%;
+        position: absolute;
+        left: 30px;
+        top: 150px;
+    }
+    .speed .lol h5 {
+        margin-top: 15px;
+    }
+    .im img {
+        width: 100%;
+    }
+    .lol p {
+        width: 310px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .additional {
+        font-size: 17px;
+    }
+    .lol {
+        width: 100%;
+    }
+    .lol h1 {
+        font-size: 35px;
+    }
+    .lol h5 {
+        font-size: 18px;
+    }
+    .header ul {
+        margin-top: -26px;
+        display: flex;
+    }
+    /* Header dropDown icon */
+    .fa-bars {
+        display: none;
+    }
+    /* Header dropDown icon */
+    .header a {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .speed .control-input {
+        margin-top: 40px;
+    }
+    .control-input {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .control-input .buttonHeader {
+        display: none;
+    }
+    .control-input .tryButton {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-top: -13.2px;
+        font-size: 18px;
+    }
+    .control-input #btn-2 {
+        font-size: 18px;
+    }
+    /* 769px and 1024px */
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 21px;
+    }
+    .header-photo {
+        background-image: url(Photos/header%20photo-3.png);
+        background-size: 100%;
+    }
+    .header-photo .speed {
+        width: 45%;
+        position: absolute;
+        left: 30px;
+        top: 150px;
+    }
+    .speed .lol h5 {
+        margin-top: 15px;
+    }
+    .im img {
+        width: 100%;
+    }
+    .lol p {
+        width: 360px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .additional {
+        font-size: 18px;
+    }
+    .lol {
+        width: 100%;
+    }
+    .lol h1 {
+        font-size: 39px;
+    }
+    .lol h5 {
+        font-size: 18px;
+    }
+    .header ul {
+        margin-top: -26px;
+        display: flex;
+    }
+    /* Header dropDown icon */
+    .fa-bars {
+        display: none;
+    }
+    /* Header dropDown icon */
+    .header a {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .speed .control-input {
+        margin-top: 40px;
+    }
+    .control-input .buttonHeader {
+        padding-left: 36px;
+        padding-right: 36px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: -13.2px;
+        font-size: 18px;
+    }
+    .control-input .tryButton {
+        padding-left: 36px;
+        padding-right: 36px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        margin-top: -13.2px;
+        font-size: 18px;
+    }
+    .control-input #btn-2 {
+        font-size: 18px;
+    }
+    /* 1025px and 1200px */
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1315px) {
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 21px;
+    }
+    .header-photo {
+        background-image: url(Photos/header%20photo-3.png);
+        background-size: 100%;
+    }
+    .header-photo .speed {
+        width: 47%;
+        position: absolute;
+        left: 50px;
+        top: 190px;
+    }
+    .speed .lol h5 {
+        margin-top: 15px;
+    }
+    .im img {
+        width: 100%;
+    }
+    .lol p {
+        width: 360px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-radius: 20px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .additional {
+        font-size: 18px;
+    }
+    .lol {
+        width: 100%;
+    }
+    .lol h1 {
+        font-size: 40px;
+    }
+    .lol h5 {
+        font-size: 18px;
+    }
+    .header ul {
+        margin-top: -26px;
+        display: flex;
+    }
+    /* Header dropDown icon */
+    .fa-bars {
+        display: none;
+    }
+    /* Header dropDown icon */
+    .header a {
+        font-size: 18px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .speed .control-input {
+        margin-top: 40px;
+    }
+    .control-input .buttonHeader {
+        padding-left: 36px;
+        padding-right: 36px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-top: -13.2px;
+        font-size: 18px;
+    }
+    .control-input .tryButton {
+        padding-left: 36px;
+        padding-right: 36px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-top: -13.2px;
+        font-size: 18px;
+    }
+    .control-input #btn-2 {
+        font-size: 18px;
+    }
+    /* 1201px and 1315px */
+    /* Media Query end [Header] */
+}
+
+
+/*..header end*/
+
+
+/* Trusted companies  */
+
+.local p {
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #242F51;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.companies img {
+    cursor: pointer;
+}
+
+
+/* Media queries */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .local p {
+        text-align: center;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .companies {
+        overflow-x: scroll;
+        overflow-y: visible;
+        margin-top: 18px;
+    }
+    /* 320px and 480px */
+}
+
+
+/* Trusted companies end */
+
+.phrase {
+    margin-left: 68px;
+    margin-right: 125px;
+    margin-top: 144px;
+    display: flex;
+    justify-content: center;
+}
+
+.phrase img {
+    height: 750px;
+}
+
+.force {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.phrase .force h4 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #242F51;
+}
+
+.phrase .force p {
+    font-size: 17px;
+    color: #242F51;
+}
+
+
+/*fast performance-1*/
+
+.error {
+    margin-top: 60px;
+}
+
+.error img {
+    width: 85px;
+    height: 85px;
+}
+
+.bale {
+    display: flex;
+}
+
+.error p {
+    margin-left: 24px;
+    margin-top: 12px;
+    color: #616368;
+}
+
+.error h5 {
+    color: #F55767;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 108px;
+    margin-bottom: -5px;
+}
+
+
+/*fast performance-1 end*/
+
+
+/*Prototyping-2*/
+
+.error .Prototyping {
+    color: #2563FF;
+}
+
+
+/*Prototyping-2 end*/
+
+
+/*Vector editing-3*/
+
+.error .Vector {
+    color: #40975F;
+}
+
+
+/*Vector editing-2end*/
+
+
+/*smart jackpots*/
+
+.labor {
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+.reef h1 {
+    color: #242F51;
+    font-size: 38px;
+    font-weight: bold;
+    border-right: 1px solid #80888e;
+    padding-right: 40px;
+}
+
+.reef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reef p {
+    font-size: 17px;
+    padding-left: 40px;
+}
+
+.socket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+}
+
+.services {
+    margin-left: 42px;
+    margin-right: 42px;
+}
+
+.services h5 {
+    margin-top: 30px;
+}
+
+.services .automatic {
+    color: #F55767;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.services .network {
+    color: #2563FF;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.services .reward {
+    color: #40975F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services p {
+    color: #616368;
+    margin-top: 10px;
+}
+
+.services img {
+    width: 85px;
+    height: 85px;
+}
+
+.vomit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 114px;
+    border-bottom: 1.9px solid #E5E6E5;
+    padding-bottom: 48px;
+}
+
+.corrector {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.corrector h1 {
+    color: #242F51;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.corrector p {
+    color: #616368;
+    font-size: 17px;
+    margin-top: 26px;
+    margin-bottom: 40px;
+}
+
+.corrector #button {
+    background: #2500F9;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-top: -13.2px;
+    font-size: 18px;
+}
+
+.corrector #button:hover {
+    background: #280ebf;
+    border-color: #280ebf;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .300s ease;
+}
+
+
+/*smart jackpots end*/
+
+.bro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.go h1 {
+    color: #242F51;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.go p {
+    color: #616368;
+    font-size: 17px;
+    margin-top: 26px;
+}
+
+.brake img {
+    width: 85px;
+    height: 85px;
+}
+
+.awful {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 87px;
+}
+
+.icons {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+
+.awful h5 {
+    margin-top: 30px;
+    color: #242F51;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.awful p {
+    margin-top: 10px;
+    color: #616368;
+    font-size: 17px;
+}
+
+
+/*icons end*/
+
+.false h1 {
+    color: #242F51;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.false p {
+    color: #616368;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.false {
+    margin-top: 140px;
+    margin-left: 90px;
+}
+
+.real {
+    display: flex;
+    padding-left: 90px;
+    margin-bottom: 140px;
+}
+
+.real .photo img {
+    width: 700px;
+}
+
+.real-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-top: 40px;
+}
+
+.real .real-bottom .bottom {
+    width: 50%;
+}
+
+.bottom img {
+    width: 85px;
+    height: 85px;
+    display: block;
+}
+
+.bottom h5 {
+    color: #242F51;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.bottom {
+    padding-right: 10px;
+}
+
+.bottom p {
+    color: #616368;
+    font-size: 17px;
+}
+
+.real #button {
+    background: #2500F9;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    font-size: 18px;
+    height: 55px;
+    line-height: 29px;
+    /*    width: 100%;*/
+}
+
+.real #button:hover {
+    background: #280ebf;
+    border-color: #280ebf;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .300s ease;
+}
+
+
+/*ultimate features end*/
+
+.bay {
+    text-align: center;
+}
+
+.bay p {
+    margin-top: 20px;
+}
+
+.bay h1 {
+    color: #242F51;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.bay p {
+    color: #616368;
+    font-size: 17px;
+}
+
+.io {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.post #press {
+    background: #2500F9;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-top: -13.2px;
+    font-size: 18px;
+}
+
+.post #press:hover {
+    background: #280ebf;
+    border-color: #280ebf;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .300s ease;
+}
+
+.post {
+    border: 2px solid #E5E6E5;
+    padding-top: 15px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.post .annual {
+    padding-left: 35px;
+}
+
+.post .annual {
+    color: #616368;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.post .annual:hover {
+    color: #2500F9;
+}
+
+.cartoon {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1.9px solid #E5E6E5;
+}
+
+.missed {
+    background-image: url(Photos/top-1.png);
+    padding: 47px;
+}
+
+.missed-2 {
+    background-image: url(Photos/top-2.png);
+    padding: 47px;
+}
+
+.page-1 .missed h4 {
+    margin-bottom: 20px;
+}
+
+.page-1 .missed-2 h4 {
+    margin-bottom: 20px;
+}
+
+.page-1 h4 {
+    color: #242F51;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page-1 {
+    margin-left: 38px;
+}
+
+.page-1 p {
+    color: #999CA5;
+    font-size: 17px;
+}
+
+.page-1 sub {
+    color: #999CA5;
+    font-size: 18px;
+}
+
+.page-1 h5 {
+    color: #242F51;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page-1 .lake {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.lake {
+    height: 290px;
+}
+
+.page-1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #F4F7F9;
+    border-radius: 6px;
+}
+
+.cartoon #button {
+    background: #2500F9;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-top: 13.2px;
+    font-size: 18px;
+}
+
+.cartoon #button:hover {
+    background: #280ebf;
+    border-color: #280ebf;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .300s ease;
+}
+
+.page-1 {
+    margin-bottom: 110px;
+}
+
+.page-1 .you {
+    color: #2500F9;
+    font-size: 17px;
+}
+
+
+/*get awesome features end*/
+
+.map {
+    display: flex;
+}
+
+.map .things {
+    margin-top: 180px;
+}
+
+.people {
+    margin-top: 225px;
+}
+
+.people img {
+    width: 750px;
+}
+
+.people img:hover {
+    cursor: pointer;
+}
+
+.map .things h1 {
+    color: #242F51;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.map .things p {
+    color: #616368;
+    font-size: 17px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+
+.pabel h5 {
+    font-size: 20px;
+    color: #242F51;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.burrito {
+    display: flex;
+}
+
+.opposite h6 {
+    margin-top: 27px;
+    margin-left: 20px;
+    color: #242F51;
+    font-weight: bold;
+}
+
+.opposite p {
+    font-size: 1px;
+    margin-left: 20px;
+}
+
+
+/*meet client satisfaction end*/
+
+.dive-into {
+    text-align: center;
+    margin-top: 190px;
+}
+
+.dive-into h1 {
+    color: #242F51;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.dive-into p {
+    color: #616368;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.questions {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.money h5 {
+    font-size: 20px;
+    color: #242F51;
+    font-weight: bold;
+}
+
+.money p {
+    color: #616368;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.vendor {
+    margin-bottom: 105px;
+}
+
+.money {
+    background: #F5F7FA;
+    padding: 48px;
+    border-radius: 7px;
+}
+
+.and {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1.9px solid #E5E6E5;
+}
+
+.camel {
+    border-radius: 7px;
+    background: #F5F7FA;
+    padding: 14px;
+    margin-top: 10px;
+    padding-left: 52px;
+    padding-right: 335px;
+}
+
+.camel h5 {
+    color: #242F51;
+    font-size: 20px;
+}
+
+.camel {
+    display: flex;
+    align-items: center;
+}
+
+.camel a {
+    position: absolute;
+    right: 220px;
+    color: #242F51;
+    font-size: 26px;
+    cursor: pointer;
+    /*    transition: all 10s ease;*/
+}
+
+
+/*frequently asked questions end*/
+
+.footer-page {
+    display: flex;
+}
+
+.bool img {
+    margin-top: 20px;
+}
+
+.lighting h1 {
+    color: #242F51;
+    font-size: 32.9px;
+    font-weight: bold;
+}
+
+.lighting {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.lighting p {
+    color: #616368;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.lighting img {
+    margin-top: 20px;
+}
+
+
+/*Download app end*/
+
+.take {
+    padding-top: 115px;
+    margin-top: -60px;
+    background: #09142E;
+    height: 529px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items li {
+    padding-top: 42px;
+    font-size: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.footer-items ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social a {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 28px;
+    color: #273043;
+    transition: all 300ms ease;
+}
+
+.footer-social a:hover {
+    color: #fff;
+}
+
+.copyright {
+    padding-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    color: #5F636E;
+    font-size: 16.5px;
+    font-family: 'Open Sans', sans-serif;
+}
